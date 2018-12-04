@@ -1,5 +1,8 @@
 
+This GT New Horizons is  customized version by yukieiji for yukieiji's GTNewHorizons Server.
+Licenses etc are based on original GT New Horizons.
 
+Below is the original Readme.
 
 # GT New Horizons Mod Pack
 
