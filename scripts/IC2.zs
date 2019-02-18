@@ -1309,7 +1309,7 @@ recipes.addShaped(<IC2:blockChargepad:3>, [
 recipes.addShaped(<IC2:blockChargepad:2>, [
 [<ore:screwAluminium>, <minecraft:heavy_weighted_pressure_plate>, <ore:screwAluminium>],
 [<ore:circuitAdvanced>, <IC2:blockElectric:1>, <ore:circuitAdvanced>],
-[<ore:itemCasingAluminium> * 1, <ore:craftingToolScrewdriver>, <ore:itemCasingAluminium>]]);
+[<ore:itemCasingAluminium>, <ore:craftingToolScrewdriver>, <ore:itemCasingAluminium>]]);
 
 // --- Charge Pad CESU
 recipes.addShaped(<IC2:blockChargepad:1>, [
@@ -1476,6 +1476,31 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 [<ore:dustCalcite>, <ore:dustCalcite>, <ore:dustStone>],
 [<ore:dustClay>, <ore:dustQuartzSand>, null],
 [null, null, null]]);
+
+// --- Repair rubber Boots
+recipes.addShaped(<IC2:itemArmorRubBoots>, [
+[<ore:plateRubber>, <IC2:itemArmorRubBoots:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
+[null, <TConstruct:buckets:25>, null]]);
+
+// --- Repair rubber Helm
+recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
+[<ore:plateRubber>, <IC2:itemArmorHazmatHelmet:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
+[<ore:plateRubber>, <TConstruct:buckets:25>, null]]);
+
+// --- Repair rubber Suit
+recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
+[<ore:plateRubber>, <IC2:itemArmorHazmatChestplate:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
+[<ore:plateRubber>, <TConstruct:buckets:25>, <ore:plateRubber>]]);
+
+// --- Repair rubber Leggins
+recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
+[<ore:plateRubber>, <IC2:itemArmorHazmatLeggings:*>, <ore:plateRubber>],
+[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
+[<ore:plateRubber>, <TConstruct:buckets:25>, <ore:plateRubber>]]);
+
 
 
 
