@@ -2,8 +2,8 @@
 This GT New Horizons is  customized version by yukieiji for yukieiji's GTNewHorizons Server.<br>
 Licenses etc are based on original GT New Horizons.
 
-Current version:ver2.0.6.2.190124(Release:2019/01/24)<br>
-Next version:ver2.0.6.8.190228(Release:2019/02/28)<br>
+Current version:ver2.0.6.8.190307(Release:2019/02/28)<br>
+Next version:ver2.0.7.0.190321(Release:2019/02/28)<br>
 
 Below is the original Readme.
 
