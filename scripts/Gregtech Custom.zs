@@ -1,14 +1,25 @@
 // --- Created by yukieiji for yukieiji's GTNewHorrizons server ---
 
 
-// --- Imports --- 
+// --- Imports ---
 
 import mods.gregtech.AssemblyLine;
 import mods.gregtech.Assembler;
 
 
+//--- Tmp Recipe Bug fix ---
+recipes.remove(<gregtech:gt.blockmachines:2440>);
+recipes.remove(<gregtech:gt.blockmachines:2020>);
+//SuperConductorUV
+Assembler.addRecipe(<gregtech:gt.blockmachines:2440> * 18 ,[<gregtech:gt.blockmachines:2500> * 18 ,<gregtech:gt.blockmachines:5210> * 7, <gregtech:gt.metaitem.01:32617>, <gregtech:gt.metaitem.01:30012>*5, <gregtech:gt.metaitem.01:30004>*5, <gregtech:gt.integrated_circuit:18> * 0], null, 600, 122880);
+//SuperConductorUHV
+Assembler.addRecipe(<gregtech:gt.blockmachines:2020> * 24 ,[<gregtech:gt.blockmachines:2520> * 24 ,<gregtech:gt.blockmachines:5240> * 8, <gregtech:gt.metaitem.01:32618>, <gregtech:gt.metaitem.01:30012>*6, <gregtech:gt.metaitem.01:30004>*6, <gregtech:gt.integrated_circuit:18> * 0], null , 600, 500000);
 
-// --- Add recipes ---
+//--- Add recipes ---
+
+//--- CastingForm ---
+
+Assembler.addRecipe(<dreamcraft:item.MoldFormCoinage> * 1 ,[<TConstruct:blankPattern:1> * 1, <ore:craftingToolFile>, <ore:craftingToolSaw>, <ore:craftingToolHardHammer>, <ore:craftingToolWireCutter>], null , 6000, 1920);
 
 //--- Downgrade Recipe ----
 
