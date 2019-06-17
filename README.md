@@ -3,7 +3,7 @@ This GT New Horizons is  customized version by yukieiji for yukieiji's GTNewHori
 Licenses etc are based on original GT New Horizons.
 
 Current version:ver2.0.6.8ζ.190321(Release:2019/03/20 BugFixRelease)<br>
-Next version:ver2.0.7.5.190617(Release:2019/06/XX GTNH UpdateNewRecipeAddRelease)<br>
+Next version:ver2.0.7.5.190617(Release:2019/06/17 GTNH UpdateNewRecipeAddRelease)<br>
 
 Below is the original Readme.
 
