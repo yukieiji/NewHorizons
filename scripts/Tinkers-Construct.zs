@@ -4016,5 +4016,12 @@ oreDict.nuggetAluminium.remove(<TConstruct:oreBerries:4>);
 
 
 
+// --- Ordict add ---
+
+
+// --- Liquid Ender Bucket
+<ore:bucketEnder>.add(<TConstruct:buckets:23>);
+
+
 
 // --- Hiding Stuff ---
