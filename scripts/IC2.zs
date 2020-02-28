@@ -1,5 +1,4 @@
 // --- Created by DreamMasterXXL ---
-// --- Created by DreamMasterXXL ---
 
 
 // --- Import ---
@@ -1483,26 +1482,26 @@ recipes.addShaped(<IC2:itemPartCFPowder>, [
 // --- Repair rubber Boots
 recipes.addShaped(<IC2:itemArmorRubBoots>, [
 [<ore:plateRubber>, <IC2:itemArmorRubBoots:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[null, <TConstruct:buckets:25>, null]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 // --- Repair rubber Helm
 recipes.addShaped(<IC2:itemArmorHazmatHelmet>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatHelmet:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <TConstruct:buckets:25>, null]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 // --- Repair rubber Suit
 recipes.addShaped(<IC2:itemArmorHazmatChestplate>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatChestplate:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <TConstruct:buckets:25>, <ore:plateRubber>]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 // --- Repair rubber Leggins
 recipes.addShaped(<IC2:itemArmorHazmatLeggings>, [
 [<ore:plateRubber>, <IC2:itemArmorHazmatLeggings:*>, <ore:plateRubber>],
-[<ore:plateRubber>, <ore:craftingToolSoftHammer>, <ore:plateRubber>],
-[<ore:plateRubber>, <TConstruct:buckets:25>, <ore:plateRubber>]]);
+[null, <ore:craftingToolSoftHammer>, null],
+[null, <TConstruct:buckets:25>.reuse(), null]]);
 
 
 
@@ -1944,7 +1943,7 @@ Pulverizer.addRecipe([<dreamcraft:item.LapotronDust> * 30],  <IC2:itemBatLamaCry
 
 
 // --- Coal Ball
-Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>], 100, 16);
+Mixer.addRecipe(<IC2:itemPartCoalBall>, [<IC2:itemDust:2> * 8, <gregtech:gt.metaitem.01:2802>, <gregtech:gt.integrated_circuit:1> * 0], 100, 16);
 
 
 
